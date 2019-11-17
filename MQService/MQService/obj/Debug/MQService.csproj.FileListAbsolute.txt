@@ -1,0 +1,11 @@
+C:\Users\4530HMZ\source\repos\MQService\MQService\bin\Debug\MQService.dll
+C:\Users\4530HMZ\source\repos\MQService\MQService\bin\Debug\MQService.pdb
+C:\Users\4530HMZ\source\repos\MQService\MQService\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\4530HMZ\source\repos\MQService\MQService\bin\Debug\RabbitMQ.Client.dll
+C:\Users\4530HMZ\source\repos\MQService\MQService\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\4530HMZ\source\repos\MQService\MQService\bin\Debug\RabbitMQ.Client.xml
+C:\Users\4530HMZ\source\repos\MQService\MQService\obj\Debug\MQService.csprojAssemblyReference.cache
+C:\Users\4530HMZ\source\repos\MQService\MQService\obj\Debug\MQService.csproj.CoreCompileInputs.cache
+C:\Users\4530HMZ\source\repos\MQService\MQService\obj\Debug\MQService.csproj.CopyComplete
+C:\Users\4530HMZ\source\repos\MQService\MQService\obj\Debug\MQService.dll
+C:\Users\4530HMZ\source\repos\MQService\MQService\obj\Debug\MQService.pdb
