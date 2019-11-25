@@ -19,23 +19,34 @@ namespace LogService.Controllers
         public ActionResult InsertLog(int ProjectCode, string ProjectPassword, string LogInfo)
         {
             projectsInfo.Add(1, "123");
-            projectsInfo.Add(2, "123");
-
-            foreach (var item in projectsInfo)
+            try
             {
-                if (item.Key == ProjectCode && item.Value == ProjectPassword)
+                foreach (var item in projectsInfo)
                 {
-                    _queue = LogInfo;
-                    Publisher publisher = new Publisher("LogInfo", _queue);
+                    if (item.Key == ProjectCode && item.Value == ProjectPassword)
+                    {
+                        _queue = LogInfo;
+                        Publisher publisher = new Publisher("LogInfo", _queue);
 
-                    break;
+                        break;
+                    }
+
+                    projectsInfo.Clear();
+
+                    throw new Exception("Proje kodu veya şifresi yanlış");
                 }
 
+                
+                return null;
+                 
+
             }
+            catch (Exception)
+            {
 
-            projectsInfo.Clear();
-
-            return View("Başarılı");
+                throw;
+            }
+            
         }
     }
 }
